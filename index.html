@@ -7,7 +7,7 @@
             const str = atob (encdStr);
             const emma = '#' + hash;
             const dr = 'https://www.baidu.com/link?url=';
-            const ax = dr + str;
+            const ax = dr + encdStr;
             var link = ax + emma;
             window.location.href = link;
         } else {
